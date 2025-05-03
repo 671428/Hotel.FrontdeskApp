@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotellAPI", "HotellAPI.csproj", "{9529EF83-63FE-CD95-45BB-3B25FFAC40EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedModels", "..\SharedModels\SharedModels\SharedModels.csproj", "{3E8EBC27-0C87-8D56-8FB3-C1E79AE3539F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		HotellContext.cs = HotellContext.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9529EF83-63FE-CD95-45BB-3B25FFAC40EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9529EF83-63FE-CD95-45BB-3B25FFAC40EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9529EF83-63FE-CD95-45BB-3B25FFAC40EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9529EF83-63FE-CD95-45BB-3B25FFAC40EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E8EBC27-0C87-8D56-8FB3-C1E79AE3539F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E8EBC27-0C87-8D56-8FB3-C1E79AE3539F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E8EBC27-0C87-8D56-8FB3-C1E79AE3539F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E8EBC27-0C87-8D56-8FB3-C1E79AE3539F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9F7A165F-2740-4164-AF03-3EC75F74E14E}
+	EndGlobalSection
+EndGlobal
