@@ -18,7 +18,7 @@
         <ComboBox x:Name="TaskTypeComboBox" Grid.Row="3" Margin="0,5,0,5">
             <ComboBoxItem Content="Cleaning"/>
             <ComboBoxItem Content="Maintenance"/>
-            <ComboBoxItem Content="Room Service"/>
+            <ComboBoxItem Content="Service"/>
         </ComboBox>
 
         <TextBlock Text="Notes:" Grid.Row="4"/>
